@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Curriculum Vitae</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../stylesheet/styles.css" />
+  </head>
+  <body>
+    <header>
+      <button id="nav-btn" class="header__nav-btn">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times"></i>
+      </button>
+      <nav class="header__nav">
+        <ul>
+          <li><a id="nav-home" href="../index.html">Home</a></li>
+          <li><a id="nav-resume" href="./resume.html">Resume</a></li>
+          <li>
+            <a id="nav-projects" href="./projects.html">Projects</a>
+          </li>
+          <li><a id="nav-contact" href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="contact">
+      <h1 class="main__page-title">Contact</h1>
+      <section class="contact__info">
+        <section class="contact__social">
+          <a href="https://codepen.io/quocdat1994/" target="_blank">
+            <i class="fab fa-codepen"></i>
+          </a>
+          <a href="https://github.com/QuocDat1994" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/dattruongnq/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="skype:live:quocdat1994_3?chat">
+            <i class="fab fa-skype"></i
+          ></a>
+        </section>
+        <div><strong>Call</strong>: 0372964842</div>
+        <div><strong>Email</strong>: tranhuuthangcoi@gmail.com</div>
+      </section>
+      <section class="contact__form">
+        <form>
+          <legend>Looking forward to answering your email</legend>
+          <input type="text" name="name" placeholder="Name" />
+          <input type="email" email="email" placeholder="Email" />
+          <input type="tel" phone="phone" placeholder="Phone" />
+          <textarea
+            rows="10"
+            name="message"
+            placeholder="Your message"
+          ></textarea>
+          <button type="submit" onclick="alert('Button is disabled!')">
+            Submit
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <section id="phone" class="footer__item">
+        <div class="footer__icon">
+          <i class="fas fa-phone"></i>
+        </div>
+        <div class="footer__info">
+          <div>Call</div>
+          <div>M: 0379557887</div>
+        </div>
+      </section>
+      <section id="email" class="footer__item">
+        <div class="footer__icon">
+          <i class="far fa-envelope"></i>
+        </div>
+        <div class="footer__info">
+          <div>Contact</div>
+          <div>quocdat1994@gmail.com</div>
+        </div>
+      </section>
+      <section id="social-media" class="footer__item">
+        <div class="footer__icon">
+          <i class="fas fa-plus"></i>
+        </div>
+        <div class="footer__info">
+          <div>Follow me</div>
+          <a href="#" target="_blank">
+            <i class="fab fa-codepen"></i>
+          </a>
+          <a href="#" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="#" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-skype"></i
+          ></a>
+        </div>
+      </section>
+      <section id="copyright" class="footer__item">
+        <div class="footer__icon">
+          <i class="far fa-copyright"></i>
+        </div>
+        <div class="footer__info">
+          <div>Theme by Nicola Rider</div>
+          <div>Recreated by me :)</div>
+        </div>
+      </section>
+    </footer>
+    <script src="../scripts/scripts.js"></script>
+  </body>
+</html>

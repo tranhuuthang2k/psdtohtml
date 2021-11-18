@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Curriculum Vitae</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./stylesheet/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header__title" style=" margin-left: 374px;">
+        <h1 class="header__name">Tran Huu Thang</h1>
+        <h2 class="header__job">Fullstack Developer</h2>
+      </div>
+      <button id="nav-btn" class="header__nav-btn">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times"></i>
+      </button>
+      <nav class="header__nav">
+        <ul>
+          <li><a id="nav-home" href="#">Home</a></li>
+          <li><a id="nav-resume" href="./pages/resume.html">Resume</a></li>
+          <li>
+            <a id="nav-projects" href="./pages/projects.html">Projects</a>
+          </li>
+          <li><a id="nav-contact" href="./pages/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="home">
+      <section class="home__greeting">
+        <div class="greeting__hello">Hello,</div>
+        <span class="greeting__text">a bit about me:</span>
+      </section>
+      <section class="home__circle-group">
+        <a
+          class="circle-group__link circle-group__link--pink"
+          href="./pages/resume.html"
+          >My Resume</a
+        >
+        <a
+          class="circle-group__link circle-group__link--blue"
+          href="./pages/projects.html"
+          >My Work</a
+        >
+        <a
+          class="circle-group__link circle-group__link--yellow"
+          href="./pages/contact.html"
+          >My Skills</a
+        >
+      </section>
+      <section class="home__avatar">
+        <div class="avatar__container">
+          <img src="./avt.jpg" />
+        </div>
+      </section>
+      <section class="home__introduction">
+        <p class="introduction_paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+          cursus erat ex, quis laoreet urna molestie a. Sed quis commodo sem,
+          quis congue urna. Ut eget elit nec metus malesuada tempor. Fusce
+          dapibus, mauris sed malesuada viverra, est turpis facilisis lectus,
+          finibus auctor nulla justo imperdiet felis. In laoreet accumsan nibh,
+          sit amet ornare lacus euismod.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <section id="phone" class="footer__item">
+        <div class="footer__icon">
+          <i class="fas fa-phone"></i>
+        </div>
+        <div class="footer__info">
+          <div>Call</div>
+          <div>M: 0372964842</div>
+        </div>
+      </section>
+      <section id="email" class="footer__item">
+        <div class="footer__icon">
+          <i class="far fa-envelope"></i>
+        </div>
+        <div class="footer__info">
+          <div>Contact</div>
+          <div>tranhuuthangcoi@gmail.com</div>
+        </div>
+      </section>
+      <section id="social-media" class="footer__item">
+        <div class="footer__icon">
+          <i class="fas fa-plus"></i>
+        </div>
+        <div class="footer__info">
+          <div>Follow me</div>
+          <a href="#" target="_blank">
+            <i class="fab fa-codepen"></i>
+          </a>
+          <a href="#" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="#" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-skype"></i
+          ></a>
+        </div>
+      </section>
+      <section id="copyright" class="footer__item">
+        <div class="footer__icon">
+          <i class="far fa-copyright"></i>
+        </div>
+        <div class="footer__info">
+          <div>Theme by Nicola Rider</div>
+          <div>Recreated by me :)</div>
+        </div>
+      </section>
+    </footer>
+    <script src="./scripts/scripts.js"></script>
+  </body>
+</html>
